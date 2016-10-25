@@ -1,0 +1,35 @@
+{
+"manifest_version": 2,
+"name": "WhatsApp (Beta)",
+"description": "Envía y recibe rápidamente mensajes de WhatsApp desde tu computadora.",
+"version": "1.1",
+"icons": {
+"128": "WhatsApp.png"
+},
+"orientation": "landscape",
+"app": {
+"launch": {
+"web_url": "http://web.whatsapp.com"
+},
+"permissions": [
+"background",
+"unlimitedStorage",
+"internetAccess",
+"desktopCapture",
+"openInWindow",
+"documentScan",
+"downloads",
+"fileBrowserHandler",
+"activeTab",
+"clipboardRead",
+	{
+		"fileSystem": [
+		"write",
+		"retainEntries",
+		"directory"
+	]
+},
+"notifications"
+]
+}
+}
